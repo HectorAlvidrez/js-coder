@@ -1,0 +1,182 @@
+/* ESTILOS DE PAGE "CARRITO" */
+.container .row a .btn-primary:hover {
+    background-color: black;
+    border-color: black;
+    color: white; }
+
+.cantidad-container{
+    width: fit-content;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cantidad-container span{
+    margin: 0.5rem;
+}
+
+.price-buy-container{
+    margin-top: 3rem;
+}
+
+.price-buy-container h4{
+  margin-top: 2rem;
+}
+
+.buy-onclick{
+    margin-top: 1rem;
+}
+
+.price{
+    background-color: whitesmoke;
+    width: fit-content;
+    padding: 0.25rem 1rem;
+}
+
+.decrease{
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.add{
+  font-weight: bold;
+}
+
+.success-message{
+  display: none;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 3rem;
+}
+
+.success-message h2{
+  margin: 2rem;
+}
+
+.show-message{
+  display: block;
+}
+
+/* ESTILOS DE HEADER Y MENU DE NAVEGACIÓN */
+header .envio-container {
+    background-color: greenyellow;
+    height: 2rem; }
+    header .envio-container .envio-text {
+      font-size: 0.8rem;
+      text-align: center;
+      padding: 0.4rem; }
+  
+  header nav .container-fluid .links-container {
+    width: 100%; }
+    header nav .container-fluid .links-container .cart-link .shopping-icon {
+      margin-left: 0.5rem;
+      width: 47%; }
+    header nav .container-fluid .links-container .brand-link .brand-logo {
+      margin: 0 auto;
+      width: 30%; }
+  
+  /* ----- MEDIA QUERIES DE HEADER Y MENU ----- */
+  @media screen and (min-width: 600px) {
+    header .envio-container .envio-text {
+      font-size: 0.9rem;
+      letter-spacing: 0.1rem; }
+    header nav .container-fluid .links-container .cart-link .shopping-icon {
+      margin-left: 0.8rem;
+      width: 36%; }
+    header nav .container-fluid .links-container .brand-link .brand-logo {
+      margin: 0 auto;
+      width: 28%; } }
+  
+  @media screen and (min-width: 992px) {
+    header nav .container-fluid {
+      flex-direction: column; }
+      header nav .container-fluid .links-container {
+        flex-direction: column; }
+        header nav .container-fluid .links-container .brand-link .brand-logo {
+          width: 50%; }
+      header nav .container-fluid .navbar-collapse ul li {
+        margin: 0 2rem; }
+        header nav .container-fluid .navbar-collapse ul li:hover {
+          font-weight: bold; }
+      header nav .container-fluid .navbar-collapse ul .list-cart-link .cart-link .shopping-icon {
+        width: 25%; }
+        header nav .container-fluid .navbar-collapse ul .list-cart-link .cart-link .shopping-icon:hover {
+          transition: 0.35s;
+          width: 32%; } }
+
+
+/* ESTILOS DEL FOOTER */
+footer {
+    margin-top: 2rem;
+    background-color: black;
+    color: white;
+    padding: 3rem;
+    font-size: 0.85rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center; }
+    footer .footer-socials {
+      text-align: center;
+      margin-top: 1rem; }
+      footer .footer-socials .social-links {
+        display: flex;
+        justify-content: center; }
+        footer .footer-socials .social-links a img {
+          width: 45%; }
+        footer .footer-socials .social-links a .fb-img {
+          width: 41%; }
+
+  
+  /* ----- MEDIA QUERIES PARA FOOTER ----- */
+  @media screen and (min-width: 1024px) {
+    footer {
+      margin-top: 2rem;
+      background-color: black;
+      color: white;
+      padding: 3rem;
+      font-size: 0.85rem;
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      justify-content: space-between;
+      align-items: center; } }
+
+
+/* ESTILOS DE ELEMENTOS GENERALES */
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.04rem; }
+  
+  img {
+    width: 100%; }
+  
+  main h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold; }
+  
+  main .title-pages {
+    color: black;
+    margin: 2rem 0;
+    font-size: 2rem; }
+  
+  main h2 {
+    font-weight: bold; }
+  
+  main h3 {
+    margin: 1rem 0;
+    font-weight: bold;
+    color: #41504D; }
+  
+  main h4 {
+    font-weight: bold;
+    font-size: 1.2rem; }
+  
+  main p {
+    margin: 1rem 0; }
